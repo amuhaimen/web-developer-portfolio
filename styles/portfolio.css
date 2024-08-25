@@ -168,12 +168,12 @@ nav a {
 
 /* what i do  */
 
-.what-card-container {
+.skills_container {
   display: flex;
   gap: 24px;
   margin-top: 50px;
 }
-.what-card {
+.skill {
   padding: 30px 33px;
   border-radius: 5px;
   background: #fff;
@@ -196,13 +196,13 @@ nav a {
   line-height: 28px; /* 175% */
 }
 
-/* summary styles  */
-.summary-container {
+/* resume styles  */
+.resume_container {
   display: flex;
   gap: 24px;
 }
 
-.summary-title {
+.resume_title {
   color: #474747;
   font-size: 30px;
   font-style: normal;
@@ -210,7 +210,7 @@ nav a {
   line-height: normal;
 }
 
-.summary-sub-title {
+.resume_sub_title {
   color: #474747;
   font-size: 25px;
   font-style: normal;
@@ -218,7 +218,7 @@ nav a {
   line-height: normal;
 }
 
-.summary-date {
+.resume_date {
   color: #757575;
   font-size: 20px;
   font-style: normal;
@@ -226,7 +226,7 @@ nav a {
   line-height: normal;
 }
 
-.summary-description {
+.resume_description {
   color: #757575;
   font-size: 16px;
   font-style: normal;
@@ -237,10 +237,10 @@ hr {
   color: #d1d1d1;
 }
 
-.summary-education {
+.resume_column {
   margin-top: 113px;
 }
-.summary-btn {
+.resume_btn {
   text-align: center;
   margin-top: 50px;
 }
