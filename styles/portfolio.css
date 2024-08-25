@@ -293,3 +293,30 @@ textarea {
 .btn-submit {
   margin-top: 24px;
 }
+
+/*  Responsive with Media query  */
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .skills_container,
+  .resume_container,
+  .footer {
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+    margin: 50px 15px 0 15px;
+  }
+
+  section {
+    margin-top: 60px;
+  }
+  .resume_column {
+    margin-top: 10px;
+  }
+  .social-icons {
+    display: block;
+  }
+}
